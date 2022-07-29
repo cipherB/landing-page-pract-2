@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+
+}
+
+.nav {
+    padding: 44px 81px 10px 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav p {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.nav p:hover {
+    transform: scale(1.1);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 101px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 69px;
+}
+
+.btn-yellow {
+    padding: 15px 32px;
+    border-radius: 61px;
+    border: none;
+    background-color: #FDC72D;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.btn-yellow:hover {
+    transform: scale(1.2);
+}
+
+.container {
+    padding: 0 81px;
+}
+
+.h1{
+position: absolute;
+right: 20px;
+bottom: 45%;
+padding-right: 5%;
+}
+
+h2{
+position: absolute;
+right: 20px;
+top: 40%;
+padding: 5%;
+src:url(../assets/Poppins-ExtraLight.ttf);
+font-size:small;
+}
+.doorstep{
+    width: 675.3px;
+    height: 500px ;
+    position: absolute;
+    top: 228px;
+    left: 77px;
+
+}
+.h1about{
+    position: absolute;
+    width: 582px;
+    height: 288px;
+    top: 900px;
+    left: 55px ;
+}
+.h2about{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 10px;
+    top: 1000px;
+    font-size: small;
+    src: url(../assets/Poppins-ExtraLight.ttf);
+}
+.doorbell{
+    position: absolute;
+    width: 675.3px;
+    height: 500px;
+    top:800px ;
+    right: 77px;
+}
